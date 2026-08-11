@@ -1,5 +1,3 @@
-# Three popular strategy ideas, tested against control groups. All three failed.
-
 I tested three popular retail algo trading ideas. All three were tested against a control group, with real trading costs and the actual sequence of price movements included.
 
 The conclusion was simple. **None of the three showed a real directional edge.**
