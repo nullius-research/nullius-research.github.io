@@ -120,6 +120,13 @@ The second idea was very different. Here I try to use the range that forms durin
 Ranges smaller than 12 pips are excluded. The stop sits on the other side of the range, so the range is 1R. Costs are 1.2 pips per round trip.
 
 Here I deliberately put the control group at the centre. I took the same moments where the strategy would open a trade. But then I determined the direction at random with a coin flip. I repeated that 2,000 times. In total 772 sessions were tested.
+| Target | Expectancy | Control 5th-95th | Percentile |
+|---|---|---|---|
+| 0.5R | -0.0155R | -0.0328 to +0.0314 | 23.2 |
+| 1.0R | -0.0239R | -0.1100 to -0.0036 | 84.3 |
+| 1.5R | +0.0031R | -0.0964 to +0.0215 | 87.2 |
+| 2.0R | +0.0199R | -0.0848 to +0.0328 | 88.9 |
+
 
 And here I see exactly why a backtest without a control group can be dangerous.
 
